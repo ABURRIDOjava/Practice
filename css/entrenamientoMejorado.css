@@ -1,0 +1,337 @@
+/*===========Nav Bar TOP============*/
+/*Tamaño de letra para SB Admin V2.0*/
+nav.navbar div.navbar-header a{
+	font-size: 12px;
+}
+
+/*Para la altura de los li de la NavBar fixed top*/
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:6px !important; 
+    padding-bottom:6px !important;
+    height: 32px;
+}
+
+/*Para la altura de la NavBar fixed top*/
+.navbar {
+	min-height:28px !important;
+}
+
+/*No existe espacio entre el div del nav bar fixed top y el div de las columnas (grid method)*/
+nav#topNavBar.navbar.navbar-default{
+	margin-bottom: 0px;
+}
+
+
+/*===========FIN Nav Bar TOP============*/
+
+
+
+/*=======Alineación Nav Izquierda=======*/
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 1500px}
+
+/* Set gray background color and 100% height */
+.leftSideNav {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+    
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .leftSideNav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;} 
+}
+/*=======FIN Nav Izquierda=======*/
+
+
+
+/*=======Nav izquierdo=======*/
+
+/*=======Le damos a todos los textos un margen para cuando la pantalla se achique=======*/
+div.col-sm-2.columna.leftSideNav a{
+	margin: 2px 0;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+div.collapse.navbar-collapse ul li a{
+	/*border:1px dashed blue;*/
+	padding-right: 10px;
+}
+
+ /*La anchura de los Li del nav bar de la columna izquierda*/
+div.container-fluid div.row.content div.col-sm-2.columna.leftSideNav ul li.li-leftSide{
+	/*border:1px dashed blue;*/
+	width: 100%;
+
+}
+
+/*Elimina el padding izquierdo del navSide*/
+div.col-sm-2.columna.leftSideNav{
+	background-color: #f8f8f8;
+	padding-right: 0;
+	padding-left: 0; 
+	max-width: 100%;
+}
+
+
+/*Para el botón de GO*/
+div.input-group{
+	padding: 15px;
+}
+
+/*Estilo del H2 que hace referencia al titulo "dashboard"*/
+.dashboard{
+	padding-bottom: 3px;
+	border-bottom: 1px solid rgba(211, 211, 211, 0.6)
+}
+
+/*Darle color azul a los elementos del nav bar fixed top*/
+div#bs-example-navbar-collapse-1.collapse.navbar-collapse ul li a i{
+	color: #00BFFF;
+}
+/*======= FIN Nav izquierdo=======*/
+
+
+/*=========DASHBOARD AZUL==========*/
+div.leftAlign{
+	text-align: left;
+	float: left;
+}
+
+div.rightAlign{
+	text-align: right;
+	margin-top: 5px;
+}
+
+.viewDetails{
+	text-align: left;
+	font-size: 12px;
+	margin: 2.5px 2px 2.5px 2px;
+	float: left;
+	color: #2E86C1;
+}
+
+div.col-xs-4.arrow{
+	text-align: center;
+	padding-left: 0;
+}
+
+div.col-xs-8{
+	padding-right: 0;
+}
+
+.mainIcon{
+	padding-left: 20%;
+	padding-top: 17%;
+	margin-bottom: 0;
+}
+
+.newComents{
+	background-color: #2E86C1;
+	border:1px solid #2E86C1;
+	border-radius: 5px 5px 0 0;
+}
+
+.divViewDetails{
+	background-color: #F2F3F4;
+	border:1px solid #2E86C1;
+	border-radius: 0 0 5px 5px;
+}
+
+p.downNumber{
+	font-size: 12px;
+	padding-right: 5%;
+	margin:3px 0;
+}
+
+div.col-sm-3.dashboard2{
+	color: white;
+	margin: 5px 0;
+}
+
+.h1{
+	margin-top: 5px; 
+	padding-right: 5%;
+}
+
+.fa-Main{
+	color: white;
+}
+
+/*=========FIN DE DASHBOARD AZUL==========*/
+
+/*=========DASHBOARD VERDE==========*/
+.newTask{
+	background-color: #2ECC71;
+	border:1px solid #2ECC71;
+	border-radius: 5px 5px 0 0;
+}
+
+.divViewDetailsGreen{
+	background-color: #F2F3F4;
+	border:1px solid #2ECC71;
+	border-radius: 0 0 5px 5px;
+}
+
+.viewDetailsGreen{
+	text-align: left;
+	font-size: 12px;
+	margin: 2.5px 2px 2.5px 2px;
+	float: left;
+	color: #2ECC71;
+}
+
+a.viewDetailsRightGreen{
+	color: #2ECC71;
+	text-align: right;
+}
+/*=========FIN DE DASHBOARD VERDE==========*/
+
+/*=========DASHBOARD NARANJA==========*/
+.newOrders{
+	background-color: #F39C12;
+	border:1px solid #F39C12;
+	border-radius: 5px 5px 0 0;
+}
+
+.divViewDetailsNaranja{
+	background-color: #F2F3F4;
+	border:1px solid #F39C12;
+	border-radius: 0 0 5px 5px;
+}
+
+.viewDetailsNaranja{
+	text-align: left;
+	font-size: 12px;
+	margin: 2.5px 2px 2.5px 2px;
+	float: left;
+	color: #F39C12;
+}
+
+a.viewDetailsRightNaranja{
+	color: #F39C12;
+	text-align: right;
+}
+/*=========FIN DE DASHBOARD NARANJA==========*/
+
+/*=========DASHBOARD ROJO==========*/
+.newTickets{
+	background-color: #E74C3C;
+	border:1px solid #E74C3C;
+	border-radius: 5px 5px 0 0;
+}
+
+.divViewDetailsRojo{
+	background-color: #F2F3F4;
+	border:1px solid #E74C3C;
+	border-radius: 0 0 5px 5px;
+}
+
+.viewDetailsRojo{
+	text-align: left;
+	font-size: 12px;
+	margin: 2.5px 2px 2.5px 2px;
+	float: left;
+	color: #E74C3C;
+}
+
+a.viewDetailsRightRojo{
+	color: #E74C3C;
+	text-align: right;
+}
+/*=========FIN DE DASHBOARD ROJO==========*/
+
+/*====== Graphic columns ======*/
+.graphicColumns{
+	margin-top: 120px;
+}
+
+.notPanel{
+	border:1px solid rgba(211, 211, 211, 0.6);
+	background-color: rgba(211, 211, 211, 0.6);
+	border-radius: 5px 5px 0px 0px;
+	padding: 5px 0 5px 6px;
+}
+div.notPanel p{
+	margin-bottom: 0;
+}
+
+.notPanelBody{
+	padding: 10px;
+	border:1px solid rgba(211, 211, 211, 0.6);
+}
+
+.notPanelBodyContent{
+	border: 1px solid rgba(211, 211, 211, 0.6);
+	border-collapse: collapse;
+	border-bottom: none;
+	padding: 4px  4px;
+
+}
+
+.notPanelBodyContent p, .notPanelBodyContent i, .notPanelBodyContent span{
+	color: #5D6D7E;
+}
+
+div.notPanelBodyContent.firstContent{
+	border-radius: 5px 5px 0 0;
+}
+
+div.notPanelBodyContent.firstContent a p, div.notPanelBodyContent a p{
+	float: left;
+	margin-bottom: 0;
+}
+
+div.notPanel i, div.notPanelBodyContent i{
+	float: left;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+div.notPanel i{
+	padding-top: 2.5px;
+}
+
+div.notPanelBodyContent i{
+	padding-top: 2px;
+}
+
+div.notPanelBodyContent a span{
+	float: left;
+	padding-right: 5px;
+}
+
+div.notPanelBodyContent.firstContent p.notPanelRightAlign, p.notPanelRightAlign{
+	text-align: right;
+	margin-bottom: 0;
+	padding-right: 3px;
+}
+
+.viewAlerts{
+	margin-top: 15px;
+	border-radius: 3px;
+	border: 1px solid rgba(211, 211, 211, 0.6);
+}
+.viewAlerts p{
+	margin-bottom: 0;
+	padding: 4px;
+	text-align: center;
+}
+
+div.notPanelBodyContent.lastContent{
+	border: 1px solid rgba(211, 211, 211, 0.6);
+	padding: 4px  4px;
+	border-radius: 0 0 5px 5px;
+	margin-bottom: 6px;
+}
+/*====== FIN  de Graphic columns ======*/
+
+
+/*====== Separar los dashboards de colores de la parte de abajo dandole a las columnas de abajo  margin TP======*/
+div.col-sm-5.border, div.col-sm-7.graphicLeftColumn{
+	margin-top: 5px;
+}
+/*====== FIN  ======*/
+
